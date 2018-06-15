@@ -17,5 +17,5 @@ ssr_server_obfs = 'tls1.2_ticket_auth'  # ssr混淆插件
 ssr_server_obfs_param = ''  # ssr混淆参数
 
 subnet_mask= "(192.168.0.0/16)"
-dns1_in_your_network = "202.114.0.242"
-dns2_in_your_network = "202.114.0.131"
+dns1_in_your_network = "112.114.0.242"
+dns2_in_your_network = "112.114.0.131"
