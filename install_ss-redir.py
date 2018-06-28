@@ -9,7 +9,7 @@ if __name__ == "__main__":
     os.system("sed -i 's/\r/''/g' install_pkgs.sh")
     os.system("apt-get install -y  curl ipset iproute2 pdnsd haveged git \
                         gettext gcc autoconf libtool automake make perl wget  \
-                        cmake asciidoc xmlto  libc-ares-dev libssl-dev libev-dev libpcre3 \
+                        cmake asciidoc xmlto zlib1g-dev libc-ares-dev libssl-dev libev-dev libpcre3 \
                         libpcre3-dev")
     os.system("apt-get autoremove -y")
     current_dir = os.getcwd()
