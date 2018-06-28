@@ -15,5 +15,5 @@ if __name__ == "__main__":
     current_dir = os.getcwd()
 
     os.system("sh %s %s" %(os.path.join(current_dir, "install_pkgs.sh") , current_dir))
-    modify_conf(ss_or_ssr == "ssr")
+    modify_conf(ss_or_ssr)
     print("Succeed in  Installing  and configuring  ss-redir! \nPlease Run Comand \"ss-tproxy start\" to use ss-tproxy.")
